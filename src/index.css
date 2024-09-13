@@ -1,0 +1,16 @@
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-display: auto;
+}
+smart-grid {
+  width: 100% !important;
+}
+.demo-description {
+  max-width: 65%;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.demo-description h1 {
+  font-size: 14px;
+}
