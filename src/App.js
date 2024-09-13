@@ -7,15 +7,16 @@ import {
   sorting,
   filtering,
   editing,
-} from "./component/table/Feature";
+} from "./component/table/Features";
 import { columns } from "./component/table/TableColumns";
 export default function App() {
-  const dataSource = GetData(100);
+  const dataSource = GetData(100); //Get table data
   return (
     <div className="data-grid-container">
       <div className="demo-description">
-        <h1>Smart Grid for React Add new column</h1>
+        <h1>DataGrid Add New Column</h1>
       </div>
+      {/* Table data grid */}
       <Grid
         id="grid"
         dataSource={dataSource}
