@@ -6,11 +6,17 @@ body {
 smart-grid {
   width: 100% !important;
 }
+.data-grid-container{
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
 .demo-description {
-  max-width: 65%;
+text-align: center;
   font-size: 13px;
   margin-bottom: 30px;
+  margin-top: 45px;
 }
 .demo-description h1 {
-  font-size: 14px;
+  font-size: 22px;
 }

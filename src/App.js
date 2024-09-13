@@ -12,7 +12,7 @@ import { columns } from "./component/table/TableColumns";
 export default function App() {
   const dataSource = GetData(100);
   return (
-    <div className="App">
+    <div className="data-grid-container">
       <div className="demo-description">
         <h1>DataGrid Add New Column</h1>
       </div>
