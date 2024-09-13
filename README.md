@@ -1,6 +1,31 @@
-# Getting Started with Create React App
+# DataGrid Component with React and HTMLElements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project demonstrates how to build a DataGrid component using the htmlelements package in React. The DataGrid component is designed to display tabular data with various features, including sorting, filtering, and pagination.
+
+## Features
+
+- DataGrid Component: Utilizes HTMLElements - - package for creating a versatile DataGrid.
+- Sorting: Allows sorting by column headers.
+- Filtering: Enables filtering of rows based on column values.
+- Pagination: Supports navigating through multiple pages of data.
+- Styling: Styled with Tailwind CSS for a modern look.
+
+## Prerequisites
+
+. Before you begin, ensure you have met the following requirements:
+
+. Node.js and npm/yarn installed.
+Basic understanding of React.
+
+## Installation
+
+To install the dependencies, run:
+
+### Using npm:
+
+npm install
+or if you are using yarn:
+yarn install
 
 ## Available Scripts
 
@@ -39,31 +64,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
