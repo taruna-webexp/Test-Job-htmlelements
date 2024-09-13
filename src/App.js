@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="data-grid-container">
       <div className="demo-description">
-        <h1>DataGrid Add New Column</h1>
+        <h1>Smart Grid for React Add-new-column</h1>
       </div>
       <Grid
         id="grid"
