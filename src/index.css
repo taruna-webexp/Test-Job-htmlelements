@@ -3,9 +3,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   font-display: auto;
 }
-smart-grid {
-  width: 100% !important;
-}
+
 .data-grid-container{
   padding-left: 15px;
   padding-right: 15px;
@@ -19,4 +17,7 @@ text-align: center;
 }
 .demo-description h1 {
   font-size: 22px;
+}
+body smart-grid {
+  width: 100% ;
 }
