@@ -41,4 +41,12 @@ export const columns = [
     editor: "numberInput",
     cellsFormat: "c2",
   },
+  {
+    label: "Country",
+    dataField: "countryData",
+    editor: {
+      required: true,
+      template: "autoComplete",
+    },
+  },
 ];

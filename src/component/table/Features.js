@@ -1,4 +1,3 @@
-
 //Activates selection
 export const selection = {
   enabled: true,
@@ -11,7 +10,7 @@ export const selection = {
 // Columns resized
 export const behavior = {
   columnResizeMode: "split",
-}
+};
 
 //Sorting in the data grid
 export const sorting = {
@@ -28,5 +27,6 @@ export const editing = {
   addNewColumn: {
     visible: true,
   },
+
   mode: "cell",
 };
