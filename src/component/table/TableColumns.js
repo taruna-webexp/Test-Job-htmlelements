@@ -3,9 +3,10 @@ export const columns = [
     label: "First Name",
     dataField: "firstName",
     editor: {
-      required: true,
+      required: false,
       template: "input",
     },
+    template: '<a href="https://www.google.com/" target="_blank">{{value}}</a>',
   },
   {
     label: "Last Name",
@@ -41,6 +42,7 @@ export const columns = [
     editor: "numberInput",
     cellsFormat: "c2",
   },
+
   {
     label: "Country",
     dataField: "countryData",
